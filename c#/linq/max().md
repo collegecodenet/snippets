@@ -19,7 +19,6 @@ decimal maxNumber = numbers.Max(); // maxNumber: 51.1
 <br />
 
 Get the lagest number from a list of nullable integers
-
 ------
 ```
 var numbers = new List<int?> { 8, 91, null, -3, -8, 18 };
