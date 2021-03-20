@@ -1,4 +1,5 @@
-#### Get the sum of values from a list of integers
+Get the sum of values from a list of integers
+------
 
 ```
 var numbers = new List<int> { 10, 8, 4, -1, 5 };
@@ -6,7 +7,8 @@ var numbers = new List<int> { 10, 8, 4, -1, 5 };
 int sum = numbers.Sum();  // sum: 26
 ```
 
-#### Get the sum of values from a list of decimals
+Get the sum of values from a list of decimals
+------
 
 ```
 var numbers = new List<decimal> { 1m, 200.8m, -20.2m, 41m, 55.3m };
@@ -14,7 +16,8 @@ var numbers = new List<decimal> { 1m, 200.8m, -20.2m, 41m, 55.3m };
 decimal sum = numbers.Sum();  // sum: 277.9
 ```
 
-#### Get the sum of values from a list of nullable integers
+Get the sum of values from a list of nullable integers
+------
 
 ```
 var numbers = new List<int?> { 18, -22, null, 301, null, 53 };
@@ -22,7 +25,8 @@ var numbers = new List<int?> { 18, -22, null, 301, null, 53 };
 int? sum = numbers.Sum();  // sum: 350
 ```
 
-#### Calculate the total length of all strings in a list 
+Calculate the total length of all strings in a list
+------
 
 ```
 var stringList = new List<string> { "college", "code", "sum", "example" };
