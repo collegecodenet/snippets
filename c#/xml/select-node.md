@@ -35,6 +35,13 @@ foreach (XmlNode employee in employees)
   
   Console.WriteLine($"Employee name: {firstName} {lastName}");
 }
+
+/*
+Employee name: John Smith
+Employee name: Patrick Clark
+Employee name: Jack Russell
+Employee name: Lillian Parker
+*/
 ```
 
 Select XML Nodes by Attribute value
@@ -64,7 +71,7 @@ string xmlString = @"
 
 
 var xml = new XmlDocument();
-xml.LoadXml(myXmlString);
+xml.LoadXml(xmlString);
 
 XmlNodeList employees = xml.SelectNodes("/Employees/Employee[@type='Developer']");
 
@@ -75,4 +82,10 @@ foreach (XmlNode employee in employees)
   
   Console.WriteLine($"Employee name: {firstName} {lastName}");
 }
+
+/*
+Employee name: John Smith
+Employee name: Patrick Clark
+Employee name: Lillian Parker
+*/
 ```
