@@ -43,19 +43,19 @@ Select XML Nodes by Attribute value
 ```C#
 string xmlString = @"
   <Employees>
-    <Employee type="Developer">
+    <Employee type='Developer'>
         <FirstName>John</FirstName>
         <LastName>Smith</LastName>
     </Employee>
-    <Employee type="Developer">
+    <Employee type='Developer'>
         <FirstName>Patrick</FirstName>
         <LastName>Clark</LastName>
     </Employee>
-    <Employee type="Manager">
+    <Employee type='Manager'>
         <FirstName>Jack</FirstName>
         <LastName>Russell</LastName>
     </Employee>
-    <Employee type="Developer">
+    <Employee type='Developer'>
         <FirstName>Lillian</FirstName>
         <LastName>Parker</LastName>
     </Employee>
