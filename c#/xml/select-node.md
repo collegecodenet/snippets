@@ -2,6 +2,8 @@ Select XML Nodes by Name
 ------
 
 ```C#
+using System.Xml;
+
 string xmlString = @"
   <Employees>
     <Employee>
@@ -48,6 +50,8 @@ Select XML Nodes by Attribute value
 ------
 
 ```C#
+using System.Xml;
+
 string xmlString = @"
   <Employees>
     <Employee type='Developer'>
@@ -94,6 +98,8 @@ Select the first 3 XML Nodes
 ------
 
 ```C#
+using System.Xml;
+
 string xmlString = @"
   <Employees>
     <Employee>
