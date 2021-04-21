@@ -1,3 +1,5 @@
+## LINQ: Average()
+
 Calculate the average of a list of integers
 ------
 
